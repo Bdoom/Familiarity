@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 604fac89a9b952044badf8ffc88ee5d6
+guid: 5500acc8c1a033846a24accf66c3d27d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3299155495859371327
-    second: outdoortileset_0
+      213: -3089735826934577894
+    second: femcow_0
   - first:
-      213: -6392171642039985811
-    second: outdoortileset_1
+      213: -827365613871738574
+    second: femcow_1
   - first:
-      213: -5226606489398214176
-    second: outdoortileset_2
+      213: 3379352197060308218
+    second: femcow_2
   - first:
-      213: 5103378589891456562
-    second: outdoortileset_3
+      213: 4573823765342996027
+    second: femcow_3
   - first:
-      213: 8448374414645920866
-    second: outdoortileset_4
+      213: 2521795850378934148
+    second: femcow_4
   - first:
-      213: -1317025017865278307
-    second: outdoortileset_5
+      213: -3289349958162764649
+    second: femcow_5
   - first:
-      213: 9248644064745419
-    second: outdoortileset_6
+      213: -5469275787506034202
+    second: femcow_6
   - first:
-      213: 1702290777174383657
-    second: outdoortileset_7
+      213: 5439685581414612608
+    second: femcow_7
   - first:
-      213: 8166169572620252608
-    second: outdoortileset_8
+      213: -8869097181603969405
+    second: femcow_8
   - first:
-      213: -5333685056179205705
-    second: outdoortileset_9
+      213: 3483201196712481163
+    second: femcow_9
   - first:
-      213: 3646814279806638979
-    second: outdoortileset_10
+      213: 6134829764217345019
+    second: femcow_10
   - first:
-      213: -4683835510501244509
-    second: outdoortileset_11
+      213: -2015513923205369594
+    second: femcow_11
   - first:
-      213: -4544030422027700379
-    second: outdoortileset_12
+      213: 908519983348131426
+    second: femcow_12
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: outdoortileset_0
+      name: femcow_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
-        width: 32
-        height: 32
+        y: 80
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21535a0c13649b04f8264da8c505f971
-      internalID: 3299155495859371327
+      spriteID: fc6b30b68f803e943bf21041306d9d92
+      internalID: -3089735826934577894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_1
+      name: femcow_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 32
-        height: 32
+        x: 16
+        y: 80
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d45cfafeab9165d4f9ba7a27a1a61238
-      internalID: -6392171642039985811
+      spriteID: 179ef2788bcbba5419ac92d32f5bce30
+      internalID: -827365613871738574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_2
+      name: femcow_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 256
-        width: 32
-        height: 32
+        y: 80
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,41 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 778be532ae6692941a0cbe20e399e24b
-      internalID: -5226606489398214176
+      spriteID: b9976f93203247c44b14ef83db6890aa
+      internalID: 3379352197060308218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1884c286eceee9247a6644c746509089
-      internalID: 5103378589891456562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outdoortileset_4
+      name: femcow_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
-        width: 32
-        height: 32
+        y: 60
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +202,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3a8ac24d8fefc9449d63874efc66fc7
-      internalID: 8448374414645920866
+      spriteID: 5f81ee44cc3c4fc4d8853affd34b0050
+      internalID: 4573823765342996027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_5
+      name: femcow_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 60
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042896067dc4262459b545c06677bffb
+      internalID: 2521795850378934148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: femcow_5
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
-        width: 32
-        height: 32
+        y: 60
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,62 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8cbbf80703b87f47b622d1cbb2e2b2b
-      internalID: -1317025017865278307
+      spriteID: 820046f5f8720be449d1e6426f8bd85e
+      internalID: -3289349958162764649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 294ed971a9048b740ac486be81908278
-      internalID: 9248644064745419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outdoortileset_7
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38dc119ebc6707f40b3e5995286883fc
-      internalID: 1702290777174383657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outdoortileset_8
+      name: femcow_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 32
-        height: 32
+        y: 40
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +265,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba66d2580d8f894bbd16d2208119acf
-      internalID: 8166169572620252608
+      spriteID: 80de49a3032d6294ab3e524c0d3de4fe
+      internalID: -5469275787506034202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_9
+      name: femcow_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3b7de6074c7f54c88dd46a97779cad
+      internalID: 5439685581414612608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: femcow_8
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
-        width: 32
-        height: 32
+        y: 40
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,41 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2dfaae69a69334dbdff8132101a3c7
-      internalID: -5333685056179205705
+      spriteID: cbc340d55adfc9248b8cc203cbd1d9aa
+      internalID: -8869097181603969405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6453b2067a1294340a8f40c60b0cee68
-      internalID: 3646814279806638979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outdoortileset_11
+      name: femcow_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 32
-        height: 32
+        y: 20
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41deb5afb761b954299edc514b3e4521
-      internalID: -4683835510501244509
+      spriteID: 419b24187d1b60c47987735d0570eb0b
+      internalID: 3483201196712481163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoortileset_12
+      name: femcow_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
+        x: 16
+        y: 20
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,8 +349,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be82cb9aad017c4192b9ede784b82e1
-      internalID: -4544030422027700379
+      spriteID: 3f2438a98050b2447a54e7d9bd356927
+      internalID: 6134829764217345019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: femcow_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2569aa90f98e7bb4791fe170ae7e9d24
+      internalID: -2015513923205369594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: femcow_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53e749c305fc0144956861e5cc58ef7
+      internalID: 908519983348131426
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 555a0ae31206061489cf65caf753587a
     internalID: 0
     vertices: []
     indices: 
