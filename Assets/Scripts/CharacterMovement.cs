@@ -8,10 +8,8 @@ public class CharacterMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Animator animator;
-    public AnimatorOverrideController animatorOverrideController;
-
-    const string idle = "Idle";
-
+    private AnimatorOverrideController animatorOverrideController;
+    
     public AnimationClip Idle_Up;
     public AnimationClip Idle_Down;
     public AnimationClip Idle_Left;
