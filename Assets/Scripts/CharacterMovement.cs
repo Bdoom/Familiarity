@@ -25,6 +25,8 @@ public class CharacterMovement : MonoBehaviour
 
         animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
         animator.runtimeAnimatorController = animatorOverrideController;
+
+        rb.freezeRotation = true;
     }
 
     void Update()
@@ -32,7 +34,6 @@ public class CharacterMovement : MonoBehaviour
         float horizontal = movement.x = Input.GetAxisRaw("Horizontal");
         float vertical = movement.y = Input.GetAxisRaw("Vertical");
         float speed = movement.sqrMagnitude;
-
 
         if (movement.x != 0)
         {
