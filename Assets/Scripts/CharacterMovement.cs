@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public float charSpeed = 5f;
+    private StatsComponent playerStats;
 
     private Rigidbody2D rb;
     private Vector2 movement;
     private Animator animator;
     private AnimatorOverrideController animatorOverrideController;
-    
+
     public AnimationClip Idle_Up;
     public AnimationClip Idle_Down;
     public AnimationClip Idle_Left;
@@ -22,6 +22,7 @@ public class CharacterMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerStats = GetComponent<StatsComponent>();
 
         animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
         animator.runtimeAnimatorController = animatorOverrideController;
@@ -35,46 +36,24 @@ public class CharacterMovement : MonoBehaviour
         float vertical = movement.y = Input.GetAxisRaw("Vertical");
         float speed = movement.sqrMagnitude;
 
-        if (movement.x != 0)
+        if (movement.x != 0 || movement.y != 0)
         {
             LastHorizontal = movement.x;
-        }
-        if (movement.y != 0)
-        {
             LastVertical = movement.y;
         }
 
-        if (speed == 0)
-        {
-            if (LastHorizontal == 1)
-            {
-                animatorOverrideController["Idle"] = Idle_Right;
-            }
-            if (LastHorizontal == -1)
-            {
-                animatorOverrideController["Idle"] = Idle_Left;
-            }
-
-            if (LastVertical == 1)
-            {
-                animatorOverrideController["Idle"] = Idle_Up;
-            }
-            if (LastVertical == -1)
-            {
-                animatorOverrideController["Idle"] = Idle_Down;
-            }
-        }
         // Right horizontal = 1, left = -1
         // up vertical = 1, down = -1
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Horizontal", LastHorizontal);
+        animator.SetFloat("Vertical", LastVertical);
         animator.SetFloat("Speed", speed);
+
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * charSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * playerStats.MovementSpeed * Time.fixedDeltaTime);
     }
 
 }

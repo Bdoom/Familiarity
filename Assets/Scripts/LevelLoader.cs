@@ -13,8 +13,7 @@ public class LevelLoader : MonoBehaviour
     {
         animController = FaderObject.GetComponent<Animator>();
     }
-
-
+    
     void OnTriggerEnter2D(Collider2D col)
     {
         animController.SetTrigger("FadeToBlack");
