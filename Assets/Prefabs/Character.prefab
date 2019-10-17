@@ -255,6 +255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4aecdcd0ce03e4f9a7e470e18062e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HealthBar: {fileID: 0}
+  FoodBar: {fileID: 0}
+  WaterBar: {fileID: 0}
 --- !u!114 &6305542076832323852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +273,3 @@ MonoBehaviour:
   SURVIVAL_TIMER_COOLDOWN: 10
   FOOD_REDUCTION_PER_TIMER: 3
   WATER_REDUCTION_PER_TIMIER: 3
-  HealthBar: {fileID: 0}
-  FoodBar: {fileID: 0}
-  WaterBar: {fileID: 0}
