@@ -64050,6 +64050,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 746481098528513988, guid: 37cce34c8a6baab489276542461416ef,
+        type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 746481098528513988, guid: 37cce34c8a6baab489276542461416ef,
+        type: 3}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 746481098528513990, guid: 37cce34c8a6baab489276542461416ef,
         type: 3}
       propertyPath: target
