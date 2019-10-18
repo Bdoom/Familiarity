@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -32,8 +33,8 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
-        float horizontal = movement.x = Input.GetAxisRaw("Horizontal");
-        float vertical = movement.y = Input.GetAxisRaw("Vertical");
+        float horizontal = movement.x = CrossPlatformInputManager.GetAxisRaw("Horizontal");
+        float vertical = movement.y = CrossPlatformInputManager.GetAxisRaw("Vertical");
         float speed = movement.sqrMagnitude;
 
         if (movement.x != 0 || movement.y != 0)

@@ -43,8 +43,12 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 5500acc8c1a033846a24accf66c3d27d, type: 3}
-    totalSpriteSurfaceArea: 4160
+    - {fileID: 2800000, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+    totalSpriteSurfaceArea: 12864
     bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: d3c764b6afef70bda9031511285cbda5
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: -7303241104488250180, guid: 5500acc8c1a033846a24accf66c3d27d, type: 3}
@@ -60,6 +64,40 @@ SpriteAtlas:
   - {fileID: 867207243176638483, guid: 5500acc8c1a033846a24accf66c3d27d, type: 3}
   - {fileID: -2783550788519566794, guid: 5500acc8c1a033846a24accf66c3d27d, type: 3}
   - {fileID: 5001697948758613442, guid: 5500acc8c1a033846a24accf66c3d27d, type: 3}
+  - {fileID: -6686527046148888252, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 246046842793703046, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -3204279633448425370, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 2156586724761258801, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -8942060133004082261, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -2129664703213696921, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 315549757995893885, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -8423915964670584314, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -1256836909348811809, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 5821806765506847887, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -5411720256653055194, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -8758827063446685107, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 5147107645606816784, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 4970962366351343992, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 242839731286981266, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 3469950183001794833, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -8139055014111965576, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 3884495537346851415, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 3820509910465305547, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 2852405441934460732, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -8022866423351683107, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 4277547321215651402, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 5672867277441067771, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 8215034682584438889, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 8644531220492856158, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 1235936341527536405, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -3251209620101536445, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 797168082230030956, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 5168743348441833304, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -3533464526554882258, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 7528729079429236806, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -4223920944076054090, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: 5752895467340259857, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
+  - {fileID: -3571329068732201050, guid: a49714e87f7bbe5498c796ff0899c706, type: 3}
   m_PackedSpriteNamesToIndex:
   - FemaleCharacter_9
   - FemaleCharacter_8
@@ -74,5 +112,39 @@ SpriteAtlas:
   - FemaleCharacter_10
   - FemaleCharacter_11
   - FemaleCharacter_12
+  - Outdoor_Tileset_29
+  - Outdoor_Tileset_32
+  - Outdoor_Tileset_28
+  - Outdoor_Tileset_33
+  - Outdoor_Tileset_30
+  - Outdoor_Tileset_31
+  - Outdoor_Tileset_21
+  - Outdoor_Tileset_20
+  - Outdoor_Tileset_23
+  - Outdoor_Tileset_22
+  - Outdoor_Tileset_25
+  - Outdoor_Tileset_24
+  - Outdoor_Tileset_27
+  - Outdoor_Tileset_26
+  - Outdoor_Tileset_10
+  - Outdoor_Tileset_11
+  - Outdoor_Tileset_12
+  - Outdoor_Tileset_13
+  - Outdoor_Tileset_14
+  - Outdoor_Tileset_15
+  - Outdoor_Tileset_16
+  - Outdoor_Tileset_17
+  - Outdoor_Tileset_18
+  - Outdoor_Tileset_19
+  - Outdoor_Tileset_1
+  - Outdoor_Tileset_0
+  - Outdoor_Tileset_3
+  - Outdoor_Tileset_2
+  - Outdoor_Tileset_5
+  - Outdoor_Tileset_4
+  - Outdoor_Tileset_7
+  - Outdoor_Tileset_6
+  - Outdoor_Tileset_9
+  - Outdoor_Tileset_8
   m_Tag: SpriteAtlas
   m_IsVariant: 0
