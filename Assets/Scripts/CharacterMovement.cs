@@ -18,6 +18,7 @@ public class CharacterMovement : MonoBehaviour
 
     private float LastHorizontal = 0;
     private float LastVertical = 0;
+    private bool bCanCharacterMove = true;
 
     void Start()
     {
@@ -31,8 +32,18 @@ public class CharacterMovement : MonoBehaviour
         rb.freezeRotation = true;
     }
 
+    public void SetCharacterCanMove(bool bCanMove)
+    {
+        bCanCharacterMove = bCanMove;
+    }
+
     void Update()
     {
+        if (!bCanCharacterMove)
+        {
+            return;
+        }
+
         float horizontal = movement.x = CrossPlatformInputManager.GetAxisRaw("Horizontal");
         float vertical = movement.y = CrossPlatformInputManager.GetAxisRaw("Vertical");
         float speed = movement.sqrMagnitude;
