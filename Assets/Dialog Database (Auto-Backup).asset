@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Dialog Database
+  m_Name: Dialog Database (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -198,10 +198,6 @@ MonoBehaviour:
         value: None()
         type: 0
         typeString: 
-      - title: canvasRect
-        value: 
-        type: 0
-        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -242,7 +238,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -270,10 +266,6 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      - title: canvasRect
         value: 
         type: 0
         typeString: 
@@ -321,7 +313,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -345,10 +337,6 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      - title: canvasRect
         value: 
         type: 0
         typeString: 
@@ -459,10 +447,6 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: None()
-        type: 0
-        typeString: 
-      - title: canvasRect
-        value: 
         type: 0
         typeString: 
       conversationID: 2
