@@ -4,9 +4,42 @@ using UnityEngine.SceneManagement;
 public class MainMenu_UI : MonoBehaviour
 {
 
-    public void PlayGame()
+    public GameObject newGame;
+    public GameObject continueGame;
+    public GameObject settings;
+    public GameObject exitGame;
+
+    void Start()
     {
-        SceneManager.LoadScene("TestMap");
+        if (Database.GetFirstPlayer() == null)
+        {
+            continueGame.SetActive(false);
+        }
+        else
+        {
+            newGame.SetActive(false);
+        }
+    }
+
+    public void NewGame()
+    {
+        SceneManager.LoadScene("NewCharacter");
+    }
+
+    public void ContinueGame()
+    {
+        Player player = Database.GetFirstPlayer();
+        SceneManager.LoadScene(player.levelName);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void OpenSettingsMenu()
+    {
+
     }
 
 }

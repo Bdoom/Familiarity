@@ -16,6 +16,7 @@ public class LevelLoader : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D col)
     {
+        col.gameObject.GetComponent<CharacterMovement>().enabled = false;
         animController.SetTrigger("FadeToBlack");
         StartCoroutine(WaitForFadeEnd());
     }
@@ -24,6 +25,11 @@ public class LevelLoader : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(LevelName);
+    }
+
+    public void LoadLevel(string levelName)
+    {
+        SceneManager.LoadScene(levelName);
     }
 
 }
