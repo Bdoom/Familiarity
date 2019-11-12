@@ -8,6 +8,7 @@ public class SaveGame : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         db = GameObject.FindWithTag("Database").GetComponent<Database>();
         StartCoroutine(WorldSave());
     }
@@ -16,7 +17,7 @@ public class SaveGame : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(10.0f);
+            yield return new WaitForSeconds(2.0f);
             SavePlayer();
         }
     }

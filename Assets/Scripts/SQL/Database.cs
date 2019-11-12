@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using PixelCrushers.DialogueSystem;
 using SQLite;
+using UnityEngine.SceneManagement;
 
 public class Database : MonoBehaviour
 {
@@ -83,6 +84,7 @@ public class Database : MonoBehaviour
         player.playerLocationX = realtimePlayer.transform.position.x;
         player.playerLocationY = realtimePlayer.transform.position.y;
         player.playerLocationZ = realtimePlayer.transform.position.z;
+        player.levelName = SceneManager.GetActiveScene().name;
         db.UpdateAsync(player);
     }
 
