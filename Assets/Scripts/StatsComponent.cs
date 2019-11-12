@@ -18,9 +18,9 @@ public class StatsComponent : MonoBehaviour
     public float MaxHealth { get => MaxDefault; }
     public float MaxWater { get => MaxDefault; }
 
-    public GameObject HealthBar;
-    public GameObject FoodBar;
-    public GameObject WaterBar;
+    private GameObject HealthBar;
+    private GameObject FoodBar;
+    private GameObject WaterBar;
 
 
     private void Start()
@@ -30,6 +30,10 @@ public class StatsComponent : MonoBehaviour
         Water = MaxWater;
         Health = MaxHealth;
         Weight = 0;
+
+        HealthBar = GameObject.Find("Health Bar");
+        FoodBar = GameObject.Find("Food Bar");
+        WaterBar = GameObject.Find("Water Bar");
 
         ResetUIStatBarsToFull();
     }

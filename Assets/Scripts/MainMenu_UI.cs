@@ -9,15 +9,24 @@ public class MainMenu_UI : MonoBehaviour
     public GameObject settings;
     public GameObject exitGame;
 
+    private Database db;
+
     void Start()
     {
-        if (Database.GetFirstPlayer() == null)
+        db = GameObject.FindWithTag("Database").GetComponent<Database>();
+        
+    }
+
+    void Update()
+    {
+        if (db.mainPlayer != null)
         {
-            continueGame.SetActive(false);
+            continueGame.SetActive(true);
+            newGame.SetActive(false);
         }
         else
         {
-            newGame.SetActive(false);
+            continueGame.SetActive(false);
         }
     }
 
@@ -28,7 +37,7 @@ public class MainMenu_UI : MonoBehaviour
 
     public void ContinueGame()
     {
-        Player player = Database.GetFirstPlayer();
+        Player player = db.mainPlayer;
         SceneManager.LoadScene(player.levelName);
     }
 
@@ -39,7 +48,7 @@ public class MainMenu_UI : MonoBehaviour
 
     public void OpenSettingsMenu()
     {
-
+        Debug.Log(db.mainPlayer == null);
     }
 
 }
